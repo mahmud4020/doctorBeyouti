@@ -1,0 +1,118 @@
+:root {
+	/* font size */
+	--font-14: 14px;
+	--font-16: 16px;
+
+	/*color*/
+	--primary-color: #1743D1;
+	--color-red-youtube: #cd201f;
+	--color-blue-fb: #3b5998;
+	--color-black: #262626;
+	---color-white: #fff;
+	---color-yellow: #ffc107;
+}
+
+body {
+	font-family: "Roboto", sans-serif !important;
+	margin: 0;
+	padding: 0;
+	font-size: var(--font-16);
+}
+
+.contact-info {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.social-icons {
+	display: flex;
+	gap: 5px;
+}
+
+.social-icons img {
+	width: 24px;
+	height: 24px;
+	margin-right: 5px;
+}
+
+.phone-numbers {
+	display: flex;
+	align-items: center;
+	gap: 15px;
+}
+
+.phone-numbers a {
+	text-decoration: none;
+	color: var(--color-black);
+	font-weight: 500;
+}
+
+.phone-numbers svg {
+	margin-right: 5px;
+}
+
+a.navbar-brand img {
+	width: 120px;
+}
+
+.header-top {
+	padding: 10px;
+}
+
+.social-icons a {
+	width: 20px;
+	height: 20px;
+	text-align: center;
+	font-size: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-decoration: none;
+	border-radius: 3px;
+}
+
+.facebook-icon {
+	background: var(--color-blue-fb);
+	color: var(---color-white);
+}
+
+.twitter-icon {
+	background: var(--color-black);
+	color: var(---color-white);
+}
+
+.youtube-icon {
+	background: var(--color-red-youtube);
+	color: var(---color-white);
+}
+
+.header-bottom{
+	background: var(--primary-color);
+	position: relative;
+}
+.header-bottom .navbar-nav{
+	gap: 50px;
+	align-items: center;
+}
+.header-bottom .nav-link.active{
+	color: var(---color-yellow) !important;
+}
+.header-bottom .nav-link{
+	color: var(---color-white);
+}
+
+
+@media (max-width: 991px) {
+	#navbarNav{
+		position: absolute;
+		background: red;
+		width: calc(100% + 24px);
+		top: 100%;
+		left: -12px;
+		padding: 10px;
+	}
+	.header-bottom .navbar-nav{
+		gap: 15px;
+	}
+}
