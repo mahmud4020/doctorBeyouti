@@ -12,7 +12,7 @@
 	--primary-color: #1743D1;
 	--color-red-youtube: #cd201f;
 	--color-blue-fb: #3b5998;
-	--color-black: #262626;
+	--color-black: #0a0a0a;
 	---color-white: #fff;
 	---color-yellow: #ffc107;
 	---color-purple-light: #fef6ff;
@@ -24,10 +24,12 @@ body {
 	padding: 0;
 	font-size: var(--font-16);
 }
-
-.container {
-	max-width: 1200px !important;
-}
+@media (min-width: 1400px) {
+	.container {
+	  max-width: 1200px !important;
+	}
+  }
+  
 
 .contact-info {
 	display: flex;
@@ -159,6 +161,7 @@ ul.navbar-nav .btn-light:hover {
 .hero-bg {
 	position: relative;
 	z-index: 1;
+	min-height: 60vh;
 }
 
 .hero-bg::after {
@@ -169,7 +172,7 @@ ul.navbar-nav .btn-light:hover {
 	width: 100%;
 	height: 100%;
 	background-image: url(https://red-bison-751875.hostingersite.com/wp-content/uploads/2025/04/3d-abstract-background-with-plexus-design-scaled.jpg);
-    background-position: 470px -160px;
+    background-position: 515px -160px;
 	background-size: cover;
 	background-repeat: no-repeat;
 	opacity: 0.5;
@@ -195,20 +198,19 @@ ul.navbar-nav .btn-light:hover {
 .hero-content-wrapper .main-title {
 	font-family: "Roboto", Sans-serif;
 	font-size: var(--font-36);
-	font-weight: 60nt;
 	color: var(--color-black);
 }
 
 .hero-content-wrapper .sub-title {
 	font-family: "Roboto", Sans-serif;
-	font-size: var(--fon-25);
+	font-size: var(--font-25);
 	font-weight: 600;
 	color: var(--primary-color);
 }
 
 .hero-content-wrapper .hero-list-items {
 	font-family: "Roboto", Sans-serif;
-	font-size: var(--fon-25);
+	font-size: var(--font-25);
 	font-weight: 400;
 	list-style: none;
 }
@@ -236,18 +238,18 @@ ul.navbar-nav .btn-light:hover {
 	background-color: var(--primary-color);
 	/* Match the blue background */
 	color: white;
-	padding: 38px 0;
+	padding: 55px 0;
 	text-align: center;
 }
 
 .feature-item {
-	font-size: var(--fon-20);
+	font-size: var(--font-20);
 	font-weight: 600;
 	margin-bottom: 15px;
 }
 
 .feature-icon {
-	font-size: var(--fon-25);
+	font-size: var(--font-25);
 	margin-bottom: 5px;
 }
 
@@ -281,14 +283,14 @@ ul.navbar-nav .btn-light:hover {
 }
 
 .difference-title {
-	font-size: var(--fon-32);
+	font-size: var(--font-32);
 	color: #000000;
 	margin-bottom: 15px;
 	font-weight: bold;
 }
 
 .difference-sub-title {
-	font-size: var(--fon-25);
+	font-size: var(--font-25);
 	color: var(--primary-color);
 	margin-bottom: 15px;
 	font-weight: 600;

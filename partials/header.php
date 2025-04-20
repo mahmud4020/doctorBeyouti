@@ -19,7 +19,7 @@
 <body>
   <header>
     <div class="header-top">
-      <div class="lg-container container">
+      <div class="container">
         <div class="contact-info">
           <div class="social-icons">
             <a href="#" title="Facebook"><i class="fab fa-facebook-f"></i></a>
@@ -36,7 +36,7 @@
 
 
     <div class="header-bottom">
-      <div class="lg-container container">
+      <div class="container">
         <nav class="navbar navbar-expand-lg">
           <div class="w-100 d-flex align-item-center justify-content-between">
             <div>
