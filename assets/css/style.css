@@ -2,10 +2,11 @@
 	/* font size */
 	--font-14: 14px;
 	--font-16: 16px;
-	--fon-36: 36px;
-	--fon-25: 25px;
-	--fon-20: 20px;
-	--fon-32: 32px;
+	--font-36: 36px;
+	--font-25: 25px;
+	--font-19: 19px;
+	--font-20: 20px;
+	--font-32: 32px;
 
 	/*color*/
 	--primary-color: #1743D1;
@@ -193,10 +194,10 @@ ul.navbar-nav .btn-light:hover {
 
 .hero-content-wrapper .main-title {
 	font-family: "Roboto", Sans-serif;
-	font-size: var(--fon-36);
-	font-weight: 600;
+	font-size: var(--font-36);
+	font-weight: 60nt;
 	color: var(--color-black);
-}
+t}t
 
 .hero-content-wrapper .sub-title {
 	font-family: "Roboto", Sans-serif;
@@ -286,11 +287,19 @@ ul.navbar-nav .btn-light:hover {
 	font-weight: bold;
 }
 
+.difference-sub-title {
+	font-size: var(--fon-25);
+	color: var(--primary-color);
+	margin-bottom: 15px;
+	font-weight: 600;
+}
+
 .difference-text {
 	color: #666;
-	max-width: 700px;
 	margin: 0 auto;
-	line-height: 1.6;
+    font-size: var(--font-19);
+    font-weight: 400;
+    color: #000000;
 }
 
 
@@ -301,7 +310,9 @@ ul.navbar-nav .btn-light:hover {
 	padding: 60px 0;
 	text-align: center;
 }
-
+.help-item{
+	padding: 50px;
+}
 .help-title {
 	font-size: 2.5rem;
 	margin-bottom: 40px;

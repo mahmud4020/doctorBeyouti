@@ -120,9 +120,9 @@
         </div>
       </div>
       <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-      <i class="fa-solid fa-chevron-left"></i> </button>
+        <i class="fa-solid fa-chevron-left"></i> </button>
       <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-      <i class="fa-solid fa-chevron-right"></i> </button>
+        <i class="fa-solid fa-chevron-right"></i> </button>
     </div>
   </section>
   <!-- ###slider section -->
@@ -131,31 +131,15 @@
   <section>
     <div class="procedure-section">
       <div class="container">
-        <div class="row">
-          <div class="col-md-3 procedure-item">
-            <img src="./assets/images/plastische-chirurgie-in-der-turkei-istanbul.jpg" alt="Dental Surgery" class="procedure-image">
-            <div class="procedure-title">DENTAL SURGERY</div>
-          </div>
-          <div class="col-md-3 procedure-item">
-            <img src="./assets/images/haartranplantation-in-der-turkei-istanbul.jpg" alt="Plastic Surgery" class="procedure-image">
-            <div class="procedure-title">PLASTIC SURGERY</div>
-          </div>
-          <div class="col-md-3 procedure-item">
-            <img src="./assets/images/zahnchirurgie-in-der-turkei-istanbul.jpg" alt="Hair Transplantation" class="procedure-image">
-            <div class="procedure-title">HAIR TRANSPLANTATION</div>
-          </div>
-          <div class="col-md-3 procedure-item">
-            <img src="./assets/images/augen-lasern-in-der-turkei-istanbul.jpg" alt="Laser Eye Surgery" class="procedure-image">
-            <div class="procedure-title">LASER EYE SURGERY</div>
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="difference-section">
+                <h2 class="difference-title">Der Doctor BeYouti Unterschied</h2>
+                <h3 class="difference-sub-title">Die besten Ärzte in einer App</h3>
+                <p class="difference-text">Bei Doctor BeYouti haben Sie stets oberste Priorität. Unser engagierter Kundenservice ist rund um die Uhr für Sie da und unterstützt Sie dab ei, die besten und gleichzeitig erschwinglichen Behandlungsmöglichkeiten – sowohl im Inland als auch international zu finden.  Vertrauen Sie auf unsere Expertise, um die bestmögliche Versorgung zu erhalten!</p>         
+            </div>
           </div>
         </div>
-      </div>
-    </div>
-
-    <div class="difference-section">
-      <div class="container">
-        <h2 class="difference-title">The Doctor BeYouti Difference</h2>
-        <p class="difference-text">At Qunomedical, you always come first. Our customer service is available 24/7 and will help you find a high-quality yet affordable option for your treatment. Our team is committed to providing you with access to the highest quality and safest doctors and treatment options—both domestically and internationally.</p>
       </div>
     </div>
   </section>
@@ -165,23 +149,29 @@
   <section>
     <div class="help-section">
       <div class="container">
-        <h2 class="help-title">How we help you</h2>
         <div class="row justify-content-center">
-          <div class="col-md-4 help-item">
+          <div class="col-md-6 help-item">
             <div class="help-icon">
               <i class="fa-regular fa-calendar-check"></i>
             </div>
             <h3 class="help-item-title">Real patients, real reviews</h3>
             <p class="help-item-description">Read real reviews and testimonials from real patients who booked through Qunomedical.</p>
           </div>
-          <div class="col-md-4 help-item">
+          <div class="col-md-6 help-item">
             <div class="help-icon">
               <i class="fa-solid fa-stethoscope"></i>
             </div>
             <h3 class="help-item-title">The right doctor and place</h3>
             <p class="help-item-description">Whether at home or abroad, we provide you with comprehensive information so that you can choose your treatment and the right expert with a clear conscience.</p>
           </div>
-          <div class="col-md-4 help-item">
+          <div class="col-md-6 help-item">
+            <div class="help-icon">
+              <i class="fa-regular fa-calendar-check"></i>
+            </div>
+            <h3 class="help-item-title">24-hour customer service</h3>
+            <p class="help-item-description">Our patient managers will assist you with your booking and make your experience as stress-free as possible.</p>
+          </div>
+          <div class="col-md-6 help-item">
             <div class="help-icon">
               <i class="fa-regular fa-calendar-check"></i>
             </div>
