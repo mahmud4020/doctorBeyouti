@@ -66,23 +66,24 @@
 
   <!-- slider section -->
   <section>
-    <div id="carouselExampleDark" class="carousel carousel-dark slide">
-      <!--<div class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
-      </div>-->
+    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
       <div class="carousel-inner custom-carousel-style">
-        <div class="carousel-item active" data-bs-interval="10000">
+        <div class="carousel-item active" data-bs-interval="30000000">
           <img src="./assets/images/842250461487814937.png" class="d-block w-100" alt="...">
           <div class="carousel-caption container d-none d-md-block">
             <div class="slider-content">
               <h1>Zahnimplantat - Ihr strahlendes Lächeln</h1>
               <p class="lead">Für herausragende ästhetische Ergebnisse</p>
-              <ul class="list-unstyled">
-                <li>Von Veneers über Zahnbleaching bis hin zu Implantaten</li>
-                <li>Erstklassige Markenprodukte zu fairen Preisen</li>
-                <li>Betreuung vor, während und nach dem Eingriff</li>
+              <ul class="list-unstyled slider-list-item">
+                <li><span class="icon"><svg aria-hidden="true" class="e-font-icon-svg e-fas-check" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"></path>
+                    </svg></span> Von Veneers über Zahnbleaching bis hin zu Implantaten</li>
+                <li><span class="icon"><svg aria-hidden="true" class="e-font-icon-svg e-fas-check" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"></path>
+                    </svg></span> Erstklassige Markenprodukte zu fairen Preisen</li>
+                <li><span class="icon"><svg aria-hidden="true" class="e-font-icon-svg e-fas-check" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"></path>
+                    </svg></span> Betreuung vor, während und nach dem Eingriff</li>
               </ul>
               <button type="button" class="btn btn-primary">Jetzt anfragen</button>
             </div>
@@ -94,10 +95,16 @@
             <div class="slider-content">
               <h1>Zahnimplantat - Ihr strahlendes Lächeln</h1>
               <p class="lead">Für herausragende ästhetische Ergebnisse</p>
-              <ul class="list-unstyled">
-                <li>Von Veneers über Zahnbleaching bis hin zu Implantaten</li>
-                <li>Erstklassige Markenprodukte zu fairen Preisen</li>
-                <li>Betreuung vor, während und nach dem Eingriff</li>
+              <ul class="list-unstyled slider-list-item">
+                <li><span class="icon"><svg aria-hidden="true" class="e-font-icon-svg e-fas-check" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"></path>
+                    </svg></span> Von Veneers über Zahnbleaching bis hin zu Implantaten</li>
+                <li><span class="icon"><svg aria-hidden="true" class="e-font-icon-svg e-fas-check" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"></path>
+                    </svg></span> Erstklassige Markenprodukte zu fairen Preisen</li>
+                <li><span class="icon"><svg aria-hidden="true" class="e-font-icon-svg e-fas-check" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"></path>
+                    </svg></span> Betreuung vor, während und nach dem Eingriff</li>
               </ul>
               <button type="button" class="btn btn-primary">Jetzt anfragen</button>
             </div>
@@ -109,10 +116,16 @@
             <div class="slider-content">
               <h1>Zahnimplantat - Ihr strahlendes Lächeln</h1>
               <p class="lead">Für herausragende ästhetische Ergebnisse</p>
-              <ul class="list-unstyled">
-                <li>Von Veneers über Zahnbleaching bis hin zu Implantaten</li>
-                <li>Erstklassige Markenprodukte zu fairen Preisen</li>
-                <li>Betreuung vor, während und nach dem Eingriff</li>
+              <ul class="list-unstyled slider-list-item">
+                <li><span class="icon"><svg aria-hidden="true" class="e-font-icon-svg e-fas-check" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"></path>
+                    </svg></span> Von Veneers über Zahnbleaching bis hin zu Implantaten</li>
+                <li><span class="icon"><svg aria-hidden="true" class="e-font-icon-svg e-fas-check" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"></path>
+                    </svg></span> Erstklassige Markenprodukte zu fairen Preisen</li>
+                <li><span class="icon"><svg aria-hidden="true" class="e-font-icon-svg e-fas-check" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"></path>
+                    </svg></span> Betreuung vor, während und nach dem Eingriff</li>
               </ul>
               <button type="button" class="btn btn-primary">Jetzt anfragen</button>
             </div>
@@ -120,11 +133,14 @@
         </div>
       </div>
       <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-        <i class="fa-solid fa-chevron-left"></i> </button>
+        <i class="fa-solid fa-chevron-left"></i>
+      </button>
       <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-        <i class="fa-solid fa-chevron-right"></i> </button>
+        <i class="fa-solid fa-chevron-right"></i>
+      </button>
     </div>
   </section>
+
   <!-- ###slider section -->
 
   <!--procedure section -->
@@ -134,9 +150,9 @@
         <div class="row justify-content-center">
           <div class="col-lg-8">
             <div class="difference-section">
-                <h2 class="difference-title">Der Doctor BeYouti Unterschied</h2>
-                <h3 class="difference-sub-title">Die besten Ärzte in einer App</h3>
-                <p class="difference-text">Bei Doctor BeYouti haben Sie stets oberste Priorität. Unser engagierter Kundenservice ist rund um die Uhr für Sie da und unterstützt Sie dab ei, die besten und gleichzeitig erschwinglichen Behandlungsmöglichkeiten – sowohl im Inland als auch international zu finden.  Vertrauen Sie auf unsere Expertise, um die bestmögliche Versorgung zu erhalten!</p>         
+              <h2 class="difference-title">Der Doctor BeYouti Unterschied</h2>
+              <h3 class="difference-sub-title">Die besten Ärzte in einer App</h3>
+              <p class="difference-text">Bei Doctor BeYouti haben Sie stets oberste Priorität. Unser engagierter Kundenservice ist rund um die Uhr für Sie da und unterstützt Sie dab ei, die besten und gleichzeitig erschwinglichen Behandlungsmöglichkeiten – sowohl im Inland als auch international zu finden. Vertrauen Sie auf unsere Expertise, um die bestmögliche Versorgung zu erhalten!</p>
             </div>
           </div>
         </div>
@@ -196,9 +212,9 @@
           </div>
           <div class="col-md-9 contact-details">
             <h2>Questions? Contact us - We're here for you</h2>
-            <div class="d-flex">
+            <div class="d-flex gap-3">
               <div class="col-lg-8">
-                <p>In a personal consultation, we can discuss your specific concerns and assist you in your decision-making. Let's find the right doctor for you together.</p>
+                <p>IIn einem persönlichen Gespräch können wir Ihre speziellen Anliegen besprechen und Ihnen bei der Entscheidungsfindung zur Seite stehen. Lassen Sie uns gemeinsam den passenden Arzt für Sie finden.</p>
               </div>
 
               <div class="btn-wrapper col-lg-4">
