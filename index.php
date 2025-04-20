@@ -3,7 +3,7 @@
 <main>
   <!-- hero section -->
   <section class="hero-bg py-3">
-    <div class="container">
+    <div class="container-lg container-fluid">
       <div class="row align-items-center g-4">
         <div class="col-md-6">
           <div class="hero-content-wrapper">
@@ -40,7 +40,7 @@
   <!-- feature section -->
   <section>
     <div class="features-section">
-      <div class="container">
+      <div class="container-lg container-fluid">
         <div class="row justify-content-center">
           <div class="col-md-3 feature-item">
             <div class="feature-icon"><i class="fa-solid fa-circle-check me-2"></i></div>
@@ -70,7 +70,7 @@
       <div class="carousel-inner custom-carousel-style">
         <div class="carousel-item active" data-bs-interval="30000000">
           <img src="./assets/images/842250461487814937.png" class="d-block w-100" alt="...">
-          <div class="carousel-caption container d-none d-md-block">
+          <div class="carousel-caption container-lg container-fluid">
             <div class="slider-content">
               <h1>Zahnimplantat - Ihr strahlendes Lächeln</h1>
               <p class="lead">Für herausragende ästhetische Ergebnisse</p>
@@ -85,13 +85,13 @@
                       <path d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"></path>
                     </svg></span> Betreuung vor, während und nach dem Eingriff</li>
               </ul>
-              <button type="button" class="btn btn-primary">Jetzt anfragen</button>
+              <button type="button" class="btn btn-light custom-button">Jetzt anfragen</button>
             </div>
           </div>
         </div>
         <div class="carousel-item" data-bs-interval="2000">
           <img src="https://red-bison-751875.hostingersite.com/wp-content/uploads/2025/04/depositphotos_523489676-stock-photo-patient-suffering-hair-loss-consultation.webp" class="d-block w-100" alt="...">
-          <div class="carousel-caption container d-none d-md-block">
+          <div class="carousel-caption container-lg container-fluid">
             <div class="slider-content">
               <h1>Zahnimplantat - Ihr strahlendes Lächeln</h1>
               <p class="lead">Für herausragende ästhetische Ergebnisse</p>
@@ -112,7 +112,7 @@
         </div>
         <div class="carousel-item">
           <img src="./assets/images/842250461487814937.png" class="d-block w-100" alt="...">
-          <div class="carousel-caption container d-none d-md-block">
+          <div class="carousel-caption container-lg container-fluid">
             <div class="slider-content">
               <h1>Zahnimplantat - Ihr strahlendes Lächeln</h1>
               <p class="lead">Für herausragende ästhetische Ergebnisse</p>
@@ -146,7 +146,7 @@
   <!--procedure section -->
   <section>
     <div class="procedure-section">
-      <div class="container">
+      <div class="container-lg container-fluid">
         <div class="row justify-content-center">
           <div class="col-lg-8">
             <div class="difference-section">
@@ -164,7 +164,7 @@
   <!-- help-section -->
   <section>
     <div class="help-section">
-      <div class="container">
+      <div class="container-lg container-fluid">
         <div class="row justify-content-center">
           <div class="col-md-6 help-item">
             <div class="help-icon">
@@ -203,7 +203,7 @@
   <!-- contact section -->
   <section>
     <div class="contact-section">
-      <div class="container">
+      <div class="container-lg container-fluid">
         <div class="row align-items-start">
           <div class="col-md-3 patient-manager-info">
             <img src="./assets/images/Screenshot-2025-04-19-at-12.00.44 PM-852x1024.png" alt="Emilia" class="patient-manager-image">

@@ -408,13 +408,84 @@ ul.navbar-nav .btn-light:hover {
 }
 .slider-content h1{
 	font-size: 44px;
+	color: white;
 }
 .slider-content .lead{
 	font-size: 32px;
+	color: white;
 }
 .slider-list-item li{
 	font-size: 20px;
+	color: white;
 }
+
+.carousel .carousel-control-prev,
+.carousel .carousel-control-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    min-width: 40px;
+    height: 40px;
+    background-color: #fe6d97;
+    display: block;
+    z-index: 1;
+    color: #fff;
+    border-radius: 5px;
+    filter: unset;
+    width: fit-content;
+    opacity: 0;
+    transition: left 0.3s ease, right 0.3s ease, opacity 0.3s ease; /* Explicit transitions */
+}
+
+/* Left control specific */
+.carousel .carousel-control-prev {
+    left: 4%;
+}
+
+/* Right control specific */
+.carousel .carousel-control-next {
+    right: 4%;
+}
+
+/* Hover effect to reveal the left control */
+.carousel:hover .carousel-control-prev {
+    left: 5%;
+    opacity: 1;
+}
+
+.carousel:hover .carousel-control-next {
+    right: 5%;
+    opacity: 1;
+}
+.btn.custom-button {
+	background-color: #fff; /* White background */
+	color: #000080; /* Dark blue text (adjust the hex code as needed) */
+	border: 1px solid #000080;
+    padding: 16px 20px;
+	font-size: 1rem; /* Standard Bootstrap button font size */
+	line-height: 1.5; /* Standard Bootstrap button line height */
+	cursor: pointer; /* Indicate it's clickable */
+	transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out; /* Optional: Add a subtle transition for hover effects */
+  }
+  
+  .btn.custom-button:hover {
+	background-color: #ffffff;
+	border-color: #000080;
+	color: #000080;
+  }
+  
+  .btn.custom-button:focus {
+	/* Optional: Style for focus state */
+	outline: 0;
+	box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25); /* Bootstrap's default focus shadow */
+  }
+  
+  .btn.custom-button:active {
+	/* Optional: Style for active (pressed) state */
+	background-color: #d1d1d1;
+	border-color: #b3b3b3;
+  }
+
 /*.slider-list-item .icon{
 	color: #fe6d97;
 }*/
@@ -427,7 +498,7 @@ ul.navbar-nav .btn-light:hover {
 .custom-carousel-style .carousel-item{
 	position: relative;
 }
-.custom-carousel-style .carousel-item::after{
+.custom-carousel-style .carousel-item::before{
 	content: '';
 	position: absolute;
 	width: 100%;
@@ -435,6 +506,7 @@ ul.navbar-nav .btn-light:hover {
 	left: 0;
 	top: 0;
 	opacity: .25;
+	background: black;
 }
 .footer {
 	background-color: #f8f9fa; /* Background color similar to the image */
@@ -508,12 +580,13 @@ ul.navbar-nav .btn-light:hover {
 
 @media (max-width: 991px) {
 	#navbarNav {
-		position: absolute;
-		background: red;
-		width: calc(100% + 24px);
-		top: 100%;
-		left: -12px;
-		padding: 10px;
+        position: absolute;
+        background: #9C27B0;
+        width: calc(100% + 24px);
+        top: 100%;
+        left: -12px;
+        padding: 10px;
+        z-index: 11;
 	}
 
 	.header-bottom .navbar-nav {

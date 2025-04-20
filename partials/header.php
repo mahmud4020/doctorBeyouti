@@ -19,7 +19,7 @@
 <body>
   <header>
     <div class="header-top">
-      <div class="container">
+      <div class="container-lg container-fluid">
         <div class="contact-info">
           <div class="social-icons">
             <a href="#" title="Facebook"><i class="fab fa-facebook-f"></i></a>
@@ -36,7 +36,7 @@
 
 
     <div class="header-bottom">
-      <div class="container">
+      <div class="container-lg container-fluid">
         <nav class="navbar navbar-expand-lg">
           <div class="w-100 d-flex align-item-center justify-content-between">
             <div>
@@ -44,8 +44,8 @@
                 <img src="../assets/images/Screenshot-2025-04-18-at-8.37.27 PM-1.png" alt="" class="img-fluid">
               </a>
             </div>
-            <div class="d-flex align-item-center">
-              <div class="d-flex align-item-center">
+            <div class="d-table">
+              <div class="d-table-cell align-middle">
                 <button class="navbar-toggler shadow-none collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                   aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 
@@ -67,7 +67,7 @@
 
               </div>
 
-              <div class="d-flex align-item-center">
+              <div class="d-table-cell align-middle">
                 <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                   <ul class="navbar-nav">
                     <li class="nav-item">
