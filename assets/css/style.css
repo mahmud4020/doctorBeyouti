@@ -14,6 +14,7 @@
 	--color-black: #262626;
 	---color-white: #fff;
 	---color-yellow: #ffc107;
+	---color-purple-light: #fef6ff;
 }
 
 body {
@@ -21,6 +22,10 @@ body {
 	margin: 0;
 	padding: 0;
 	font-size: var(--font-16);
+}
+
+.container {
+	max-width: 1200px !important;
 }
 
 .contact-info {
@@ -50,29 +55,54 @@ body {
 	text-decoration: none;
 	color: var(--color-black);
 	font-weight: 500;
+	display: flex;
+	align-items: center;
+}
+
+.phone-numbers .icon {
+	font-size: 13px;
+	color: var(--primary-color);
+}
+
+.navbar {
+	padding: 10px 0;
 }
 
 a.navbar-brand img {
-	width: 120px;
+	width: 216px;
+}
+
+ul.navbar-nav .btn-light {
+	border-radius: 10px;
+	color: #1743d1;
+	padding: 6px 25px;
+}
+
+ul.navbar-nav .btn-light:hover {
+	background-color: #1743d1;
+	color: #ffffff;
 }
 
 .header-top {
 	padding: 10px;
+	background: var(---color-purple-light);
 }
 
 .social-icons a {
-	width: 20px;
-	height: 20px;
+	width: 24px;
+	height: 24px;
 	text-align: center;
-	font-size: 10px;
+	font-size: 12px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	text-decoration: none;
 	border-radius: 3px;
+	background: var(--primary-color);
+	color: var(---color-white);
 }
 
-.facebook-icon {
+/*.facebook-icon {
 	background: var(--color-blue-fb);
 	color: var(---color-white);
 }
@@ -85,7 +115,7 @@ a.navbar-brand img {
 .youtube-icon {
 	background: var(--color-red-youtube);
 	color: var(---color-white);
-}
+}*/
 
 .header-bottom {
 	background: var(--primary-color);
@@ -128,7 +158,6 @@ a.navbar-brand img {
 .hero-bg {
 	position: relative;
 	z-index: 1;
-	min-height: 681px;
 }
 
 .hero-bg::after {
@@ -139,56 +168,74 @@ a.navbar-brand img {
 	width: 100%;
 	height: 100%;
 	background-image: url(https://red-bison-751875.hostingersite.com/wp-content/uploads/2025/04/3d-abstract-background-with-plexus-design-scaled.jpg);
-	/*background-position: 519px -157px;*/
+    background-position: 470px -160px;
 	background-size: cover;
 	background-repeat: no-repeat;
 	opacity: 0.5;
 	z-index: -1;
-
 	transform-origin: center;
 }
-.hero-content-wrapper{
+
+.mobile-store-img{
+	display: flex;
+	justify-content: center;
+	gap: 20px;
+}
+.mobile-store-img img{
+	width: 160px;
+}
+.hero-content-wrapper {
 	display: flex;
 	flex-direction: column;
 	gap: 10px;
 	justify-content: center;
 }
+
 .hero-content-wrapper .main-title {
 	font-family: "Roboto", Sans-serif;
 	font-size: var(--fon-36);
 	font-weight: 600;
 	color: var(--color-black);
 }
+
 .hero-content-wrapper .sub-title {
 	font-family: "Roboto", Sans-serif;
 	font-size: var(--fon-25);
 	font-weight: 600;
 	color: var(--primary-color);
 }
+
 .hero-content-wrapper .hero-list-items {
 	font-family: "Roboto", Sans-serif;
 	font-size: var(--fon-25);
 	font-weight: 400;
 	list-style: none;
 }
+
 .hero-content-wrapper .hero-list-items li {
-	color: var(--color-black);
+	color: #54595f;
+	display: flex;
+	align-items: center;
 }
-.hero-content-wrapper .hero-list-items li i{
+
+.hero-content-wrapper .hero-list-items li i {
 	font-size: var(--font-14);
 	color: var(--primary-color);
 }
-.right-img{
+
+.right-img {
 	text-align: center;
 }
-.right-img img{
-	height: 670px;
+
+.right-img img {
+	max-width: 320px;
 }
-  
+
 .features-section {
-	background-color: var(--primary-color); /* Match the blue background */
+	background-color: var(--primary-color);
+	/* Match the blue background */
 	color: white;
-	padding: 25px 0;
+	padding: 38px 0;
 	text-align: center;
 }
 
@@ -248,7 +295,8 @@ a.navbar-brand img {
 
 
 .help-section {
-	background-color: #1a237e; /* Match the blue background */
+	background-color: #1a237e;
+	/* Match the blue background */
 	color: white;
 	padding: 60px 0;
 	text-align: center;
@@ -265,7 +313,8 @@ a.navbar-brand img {
 }
 
 .help-icon {
-	font-size: 36px; /* Adjust icon size as needed */
+	font-size: 36px;
+	/* Adjust icon size as needed */
 	margin-bottom: 15px;
 }
 
@@ -303,7 +352,8 @@ a.navbar-brand img {
 
 .contact-details h2 {
 	font-size: 1.5rem;
-	color: #1a237e; /* Match the blue color */
+	color: #1a237e;
+	/* Match the blue color */
 	margin-bottom: 10px;
 	font-weight: bold;
 }
@@ -330,7 +380,17 @@ a.navbar-brand img {
 .contact-button:hover {
 	background-color: #f8f9fa;
 }
-
+.custom-carousel-style .carousel-item img{
+	height: 700px;
+	object-fit: cover;
+}
+.custom-carousel-style .carousel-caption{
+	top: 50%;
+    transform: translateY(-50%);
+}
+.custom-carousel-style .slider-content{
+	text-align: left;
+}
 /* Medium and larger screens */
 @media (min-width: 768px) {
 	.contact-section {

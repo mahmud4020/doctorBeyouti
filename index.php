@@ -11,14 +11,18 @@
             <h2 class="sub-title">We accompany and advise you every step of the way!</h2>
 
             <ul class="hero-list-items list-unstyled">
-              <li><i class="fa-solid fa-circle-check me-2"></i> Only qualified specialists</li>
+              <li><i class="fa-solid fa-circle-check me-2"></i>Only qualified specialists</li>
               <li> <i class="fa-solid fa-circle-check me-2"></i>Personal care service</li>
               <li> <i class="fa-solid fa-circle-check me-2"></i>Best prices</li>
             </ul>
 
             <div class="mobile-store-img">
-              <img src="" alt="">
-              <img src="" alt="">
+              <a href="#playstore">
+                <img src="./assets/images/GP-removebg-preview.png" alt="" class="img-fluid">
+              </a>
+              <a href="#applestore">
+                <img src="./assets/images/as-removebg-preview.png" alt="" class="img-fluid">
+              </a>
             </div>
           </div>
         </div>
@@ -59,6 +63,69 @@
     </div>
   </section>
   <!-- feature section -->
+
+  <!-- slider section -->
+  <section>
+    <div id="carouselExampleDark" class="carousel carousel-dark slide">
+      <!--<div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>-->
+      <div class="carousel-inner custom-carousel-style">
+        <div class="carousel-item active" data-bs-interval="10000">
+          <img src="./assets/images/842250461487814937.png" class="d-block w-100" alt="...">
+          <div class="carousel-caption container d-none d-md-block">
+            <div class="slider-content">
+              <h1>Zahnimplantat - Ihr strahlendes Lächeln</h1>
+              <p class="lead">Für herausragende ästhetische Ergebnisse</p>
+              <ul class="list-unstyled">
+                <li>Von Veneers über Zahnbleaching bis hin zu Implantaten</li>
+                <li>Erstklassige Markenprodukte zu fairen Preisen</li>
+                <li>Betreuung vor, während und nach dem Eingriff</li>
+              </ul>
+              <button type="button" class="btn btn-primary">Jetzt anfragen</button>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="https://red-bison-751875.hostingersite.com/wp-content/uploads/2025/04/depositphotos_523489676-stock-photo-patient-suffering-hair-loss-consultation.webp" class="d-block w-100" alt="...">
+          <div class="carousel-caption container d-none d-md-block">
+            <div class="slider-content">
+              <h1>Zahnimplantat - Ihr strahlendes Lächeln</h1>
+              <p class="lead">Für herausragende ästhetische Ergebnisse</p>
+              <ul class="list-unstyled">
+                <li>Von Veneers über Zahnbleaching bis hin zu Implantaten</li>
+                <li>Erstklassige Markenprodukte zu fairen Preisen</li>
+                <li>Betreuung vor, während und nach dem Eingriff</li>
+              </ul>
+              <button type="button" class="btn btn-primary">Jetzt anfragen</button>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/images/842250461487814937.png" class="d-block w-100" alt="...">
+          <div class="carousel-caption container d-none d-md-block">
+            <div class="slider-content">
+              <h1>Zahnimplantat - Ihr strahlendes Lächeln</h1>
+              <p class="lead">Für herausragende ästhetische Ergebnisse</p>
+              <ul class="list-unstyled">
+                <li>Von Veneers über Zahnbleaching bis hin zu Implantaten</li>
+                <li>Erstklassige Markenprodukte zu fairen Preisen</li>
+                <li>Betreuung vor, während und nach dem Eingriff</li>
+              </ul>
+              <button type="button" class="btn btn-primary">Jetzt anfragen</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+      <i class="fa-solid fa-chevron-left"></i> </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+      <i class="fa-solid fa-chevron-right"></i> </button>
+    </div>
+  </section>
+  <!-- ###slider section -->
 
   <!--procedure section -->
   <section>
@@ -141,7 +208,7 @@
             <h2>Questions? Contact us - We're here for you</h2>
             <div class="d-flex">
               <div class="col-lg-8">
-              <p>In a personal consultation, we can discuss your specific concerns and assist you in your decision-making. Let's find the right doctor for you together.</p>
+                <p>In a personal consultation, we can discuss your specific concerns and assist you in your decision-making. Let's find the right doctor for you together.</p>
               </div>
 
               <div class="btn-wrapper col-lg-4">

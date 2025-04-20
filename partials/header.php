@@ -19,12 +19,12 @@
 <body>
   <header>
     <div class="header-top">
-      <div class="lg-container container-fluid">
+      <div class="lg-container container">
         <div class="contact-info">
           <div class="social-icons">
-            <a href="#" title="Facebook" class="facebook-icon"><i class="fab fa-facebook-f"></i></a>
-            <a href="#" title="Twitter" class="twitter-icon"><i class="fab fa-twitter"></i></a>
-            <a href="#" title="youtube" class="youtube-icon"><i class="fa-brands fa-youtube"></i></a>
+            <a href="#" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" title="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="#" title="youtube"><i class="fa-brands fa-youtube"></i></a>
           </div>
           <div class="phone-numbers">
             <a href="tel:+15551234567"><span class="icon me-2"><i class="fa-solid fa-phone"></i></span> +1 (555) 123-4567</a>
@@ -36,7 +36,7 @@
 
 
     <div class="header-bottom">
-      <div class="lg-container container-fluid">
+      <div class="lg-container container">
         <nav class="navbar navbar-expand-lg">
           <div class="w-100 d-flex align-item-center justify-content-between">
             <div>
