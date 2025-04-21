@@ -1,4 +1,4 @@
-<footer>
+
   <footer class="footer">
     <div class="container-lg">
       <div class="row h-100">
@@ -25,7 +25,7 @@
 
     </div>
   </footer>
-</footer>
+
 <script src="../assets/js/script.js"></script>
 <script src="../assets/js/bootstrap.bundle.min.js"></script>
 </body>

@@ -676,6 +676,12 @@ ul.navbar-nav .btn-light:hover {
 	.custom-carousel-style.carousel .carousel-control-prev, .custom-carousel-style.carousel .carousel-control-next{
 		display: none;
 	}
+	.social-icons{
+		display: none;
+	}
+	.contact-info{
+		justify-content: flex-end;
+	}
 }
 
 
