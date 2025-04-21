@@ -1,6 +1,6 @@
-<?php include('includes/header.php'); ?>
+<?php include('partials/header.php'); ?>
 
-
+<main>
   <!-- hero section -->
   <section class="hero-bg py-3">
     <div class="container-lg container-fluid">
@@ -18,17 +18,17 @@
 
             <div class="mobile-store-img">
               <a href="#playstore">
-                <img src="./images/GP-removebg-preview.png" alt="" class="img-fluid">
+                <img src="./assets/images/GP-removebg-preview.png" alt="" class="img-fluid">
               </a>
               <a href="#applestore">
-                <img src="./images/as-removebg-preview.png" alt="" class="img-fluid">
+                <img src="./assets/images/as-removebg-preview.png" alt="" class="img-fluid">
               </a>
             </div>
           </div>
         </div>
         <div class="col-md-6 col-sm-12">
           <div class="right-img">
-            <img src="./images/842250461487814937.png" alt="" class="img-fluid">
+            <img src="./assets/images/842250461487814937.png" alt="" class="img-fluid">
           </div>
 
         </div>
@@ -69,7 +69,7 @@
     <div id="carouselExampleDark" class="carousel carousel-dark slide custom-carousel-style" data-bs-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active" data-bs-interval="3000">
-          <img src="./images/842250461487814937.png" class="d-block w-100" alt="...">
+          <img src="./assets/images/842250461487814937.png" class="d-block w-100" alt="...">
           <div class="carousel-caption container-lg container-fluid">
             <div class="slider-content">
               <h1>Zahnimplantat - Ihr strahlendes Lächeln</h1>
@@ -206,7 +206,7 @@
       <div class="container-lg container-fluid">
         <div class="row align-items-center">
           <div class="col-md-3 col-sm-12 patient-manager-info">
-            <img src="./images/Screenshot-2025-04-19-at-12.00.44 PM-852x1024.png" alt="Emilia" class="patient-manager-image">
+            <img src="./assets/images/Screenshot-2025-04-19-at-12.00.44 PM-852x1024.png" alt="Emilia" class="patient-manager-image">
             <h2 class="contact-designation">Your personal<br>patient manager</h2>
             <h3 class="person-name">Emilia</h3>
           </div>
@@ -229,6 +229,6 @@
     </div>
   </section>
   <!-- ###contact section -->
+</main>
 
-
-<?php include('includes/footer.php'); ?>
+<?php include('partials/footer.php'); ?>

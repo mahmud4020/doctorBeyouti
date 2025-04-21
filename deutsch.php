@@ -1,4 +1,4 @@
-<?php include('partials/header.php'); ?>
+<?php include('includes/header.php'); ?>
 <main>
 
 	<div class="difference-section">
@@ -10,7 +10,7 @@
 			<div class="container-lg container-fluid">
 				<div class="row align-items-center">
 					<div class="col-md-3 col-sm-12 patient-manager-info">
-						<img src="./assets/images/Screenshot-2025-04-19-at-12.00.44 PM-852x1024.png" alt="Emilia" class="patient-manager-image">
+						<img src="./images/Screenshot-2025-04-19-at-12.00.44 PM-852x1024.png" alt="Emilia" class="patient-manager-image">
 						<h2 class="contact-designation">Your personal<br>patient manager</h2>
 						<h3 class="person-name">Emilia</h3>
 					</div>
@@ -34,4 +34,4 @@
 	</section>
 	<!-- ###contact section -->
 </main>
-<?php include('partials/footer.php'); ?>
+<?php include('includes/footer.php'); ?>
