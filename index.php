@@ -166,28 +166,28 @@
     <div class="help-section">
       <div class="container-lg container-fluid">
         <div class="row justify-content-center">
-          <div class="col-md-6 help-item">
+          <div class="col-md-6 col-sm-12 help-item">
             <div class="help-icon">
             <i class="fa-brands fa-searchengin"></i>
             </div>
             <h3 class="help-item-title">Kostenloses Angebot</h3>
             <p class="help-item-description">Unsere Beratung ist für Sie vollkommen kostenlos – ganz ohne versteckte Gebühren.</p>
           </div>
-          <div class="col-md-6 help-item">
+          <div class="col-md-6 col-sm-12 help-item">
             <div class="help-icon">
             <i class="fa-solid fa-trophy"></i>
             </div>
             <h3 class="help-item-title">Zertifizierte Ärzte</h3>
             <p class="help-item-description">Wir setzen hohe Qualitätsstandards und bi eten Ihnen objektive Informationen über Är zte, die von fachkundig geprüft wurden.</p>
           </div>
-          <div class="col-md-6 help-item">
+          <div class="col-md-6 col-sm-12 help-item">
             <div class="help-icon">
             <i class="fa-solid fa-stethoscope"></i>
             </div>
             <h3 class="help-item-title">Zufriedenheitsversprechen</h3>
             <p class="help-item-description">Wir sichern Ihnen eine erstklassige Betreuung sowie uneingeschränkte Unterstützung zu.</p>
           </div>
-          <div class="col-md-6 help-item">
+          <div class="col-md-6 col-sm-12 help-item">
             <div class="help-icon">
               <i class="fa-regular fa-calendar-check"></i>
             </div>
