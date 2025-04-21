@@ -68,7 +68,7 @@
   <section>
     <div id="carouselExampleDark" class="carousel carousel-dark slide custom-carousel-style" data-bs-ride="carousel">
       <div class="carousel-inner">
-        <div class="carousel-item active" data-bs-interval="30000000">
+        <div class="carousel-item active" data-bs-interval="3000">
           <img src="./assets/images/842250461487814937.png" class="d-block w-100" alt="...">
           <div class="carousel-caption container-lg container-fluid">
             <div class="slider-content">
@@ -89,7 +89,7 @@
             </div>
           </div>
         </div>
-        <div class="carousel-item" data-bs-interval="2000">
+        <div class="carousel-item" data-bs-interval="3000">
           <img src="https://red-bison-751875.hostingersite.com/wp-content/uploads/2025/04/depositphotos_523489676-stock-photo-patient-suffering-hair-loss-consultation.webp" class="d-block w-100" alt="...">
           <div class="carousel-caption container-lg container-fluid">
           <div class="slider-content">
@@ -110,8 +110,8 @@
             </div>
           </div>
         </div>
-        <div class="carousel-item">
-          <img src="./assets/images/842250461487814937.png" class="d-block w-100" alt="...">
+        <div class="carousel-item" data-bs-interval="3000">
+          <img src="https://red-bison-751875.hostingersite.com/wp-content/uploads/2025/04/istockphoto-1155812246-612x612-1.jpg" class="d-block w-100" alt="...">
           <div class="carousel-caption container-lg container-fluid">
           <div class="slider-content">
               <h1>Zahnimplantat - Ihr strahlendes Lächeln</h1>

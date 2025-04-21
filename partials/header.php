@@ -72,13 +72,14 @@
                 <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                   <ul class="navbar-nav">
                     <li class="nav-item">
-                      <a class="nav-link active" aria-current="page" href="#">DOCTOR</a>
+                      <a class="nav-link" aria-current="page" href="/">ÜBER UNS
+                      </a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">ABOUT US</a>
+                      <a class="nav-link" href="/kontakt.php">KONTAKT</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">GERMAN</a>
+                      <a class="nav-link" href="/deutsch.php">DEUTSCH</a>
                     </li>
                     <li class="nav-item">
                       <button class="btn btn-light d-lg-block d-none">DOWNLOAD</button>

@@ -606,11 +606,12 @@ ul.navbar-nav .btn-light:hover {
 		max-width: 1200px !important;
 	}
 }
-
-@media (max-width: 991px) {
-	.col-sm-12{
-		width: 100% !important;
+@media (max-width: 1024px) {
+	.contact-button {
+		font-size: 14px;
 	}
+}
+@media (max-width: 991px) {
 
 	.feature-item {
 		text-align: center;
@@ -686,7 +687,6 @@ ul.navbar-nav .btn-light:hover {
 
 
 
-
 @media (max-width: 767px) {
 	:root {
 		--font-13: 12px;
@@ -708,6 +708,9 @@ ul.navbar-nav .btn-light:hover {
 	.footer-social-icons a {
 		width: 32px;
 		height: 32px;
+	}
+	a.navbar-brand img {
+		width: 115px;
 	}
 
 }
