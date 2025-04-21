@@ -1,6 +1,6 @@
 <footer>
   <footer class="footer">
-    <div class="container">
+    <div class="container-lg">
       <div class="row h-100">
         <div class="col-md-6 footer-left">
           <div class="footer-social-icons">
@@ -14,12 +14,12 @@
           </div>
         </div>
         <div class="col-md-6 footer-right">
-        <div>
-          <a href="#" class="footer-links">AGB</a> |
-          <a href="#" class="footer-links">Datenschutzerklärung</a> |
+        <div class="d-flex gap-2 justify-content-center mb-3">
+          <a href="#" class="footer-links">AGB</a>
+          <a href="#" class="footer-links">Datenschutzerklärung</a>
           <a href="#" class="footer-links">Impressum</a>
         </div>
-        <p>© 2025 Doctor BeYouti. Alle Rechte vorbehalten.</p>
+        <p class="copy-right-txt">© 2025 Doctor BeYouti. Alle Rechte vorbehalten.</p>
       </div>
       </div>
 

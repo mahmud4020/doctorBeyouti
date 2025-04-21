@@ -64,6 +64,7 @@
                   </svg>
                 </button>
 
+                <button class="btn btn-light ms-4 d-lg-none d-inline">DOWNLOAD</button>
 
               </div>
 
@@ -80,7 +81,7 @@
                       <a class="nav-link" href="#">GERMAN</a>
                     </li>
                     <li class="nav-item">
-                      <button class="btn btn-light">DOWNLOAD</button>
+                      <button class="btn btn-light d-lg-block d-none">DOWNLOAD</button>
                     </li>
                   </ul>
                 </div>
