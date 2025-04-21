@@ -40,7 +40,7 @@
         <nav class="navbar navbar-expand-lg">
           <div class="w-100 d-flex align-item-center justify-content-between">
             <div>
-              <a class="navbar-brand" href="#">
+              <a class="navbar-brand" href="/">
                 <img src="../assets/images/Screenshot-2025-04-18-at-8.37.27 PM-1.png" alt="" class="img-fluid">
               </a>
             </div>
@@ -64,7 +64,7 @@
                   </svg>
                 </button>
 
-                <button class="btn btn-light ms-4 d-lg-none d-inline">DOWNLOAD</button>
+                <button class="btn btn-light ms-4 d-lg-none d-inline" data-bs-toggle="modal" data-bs-target="#customModal">DOWNLOAD</button>
 
               </div>
 
@@ -82,7 +82,7 @@
                       <a class="nav-link" href="/deutsch.php">DEUTSCH</a>
                     </li>
                     <li class="nav-item">
-                      <button class="btn btn-light d-lg-block d-none">DOWNLOAD</button>
+                      <button class="btn btn-light d-lg-block d-none" data-bs-toggle="modal" data-bs-target="#customModal">DOWNLOAD</button>
                     </li>
                   </ul>
                 </div>
@@ -93,3 +93,5 @@
       </div>
     </div>
   </header>
+
+ 

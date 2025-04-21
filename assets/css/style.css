@@ -383,6 +383,7 @@ ul.navbar-nav .btn-light:hover {
 	color: var(--primary-v3-color);
 	text-align: center;
 	transition: background-color 0.3s ease;
+	word-break: break-all;
 }
 
 .contact-button:hover {
@@ -601,6 +602,85 @@ ul.navbar-nav .btn-light:hover {
 	justify-content: flex-end;
 }
 
+
+
+
+
+
+
+
+
+ /* Custom CSS for the modal appearance */
+ .custom-modal .modal-dialog {
+	max-width: 800px;
+}
+
+.custom-modal .modal-content {
+	display: flex;
+	flex-direction: row;
+	border-radius: 10px;
+	overflow: hidden;
+	height: 480px;
+}
+
+.custom-modal .left-side {
+	background-color: var(--primary-color); /* Dark blue background */
+	color: white;
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 50%; /* Adjust as needed */
+}
+
+.custom-modal .right-side {
+	background-color: white;
+	color: #333;
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 50%; /* Adjust as needed */
+}
+
+.custom-modal .logo-container {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.custom-modal .logo-container img {
+	max-width: 300px;
+    height: auto;
+}
+
+.custom-modal h5 {
+	font-size: var(--font-22);
+	margin-bottom: 15px;
+	text-align: center;
+}
+
+.custom-modal .qr-code {
+    text-align: center;
+    margin-top: 45px;
+}
+
+.custom-modal .qr-code img {
+    max-width: 138px;
+    height: auto;
+}
+.custom-modal .logo-container img {
+    max-width: 200px;
+    height: auto;
+}
+
+
+
+
+
+
+
 @media (min-width: 1400px) {
 	.container-lg {
 		max-width: 1200px !important;
@@ -685,8 +765,6 @@ ul.navbar-nav .btn-light:hover {
 	}
 }
 
-
-
 @media (max-width: 767px) {
 	:root {
 		--font-13: 12px;
@@ -712,5 +790,12 @@ ul.navbar-nav .btn-light:hover {
 	a.navbar-brand img {
 		width: 115px;
 	}
-
+	.custom-modal .modal-content{
+		flex-direction: column;
+		height: auto;
+	}
+	.custom-modal .right-side,
+	.custom-modal .left-side{
+		width: 100%;
+	}
 }
