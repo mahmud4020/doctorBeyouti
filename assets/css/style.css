@@ -608,6 +608,9 @@ ul.navbar-nav .btn-light:hover {
 }
 
 @media (max-width: 991px) {
+	.col-sm-12{
+		width: 100% !important;
+	}
 
 	.feature-item {
 		text-align: center;
@@ -669,6 +672,9 @@ ul.navbar-nav .btn-light:hover {
 
 	.mobile-store-img {
 		flex-direction: column;
+	}
+	.custom-carousel-style.carousel .carousel-control-prev, .custom-carousel-style.carousel .carousel-control-next{
+		display: none;
 	}
 }
 
