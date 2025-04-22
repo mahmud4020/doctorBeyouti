@@ -41,7 +41,7 @@
   <section>
     <div class="features-section">
       <div class="container-lg container-fluid">
-        <div class="row justify-content-center g-4 flex-wrap">
+        <div class="row justify-content-center g-4">
           <div class="col-12 col-md-6 col-lg-3 feature-item">
             <div class="feature-icon"><i class="fa-solid fa-circle-check me-2"></i></div>
             LATEST AI TECHNOLOGIES

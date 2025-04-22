@@ -2,7 +2,7 @@
 
 <footer class="footer">
   <div class="container-lg">
-    <div class="row h-100">
+    <div class="row h-100 g-3">
       <div class="col-md-6 footer-left">
         <div class="footer-social-icons">
           <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
@@ -10,8 +10,7 @@
           <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
         </div>
         <div class="made-in-germany">
-          <img src="https://flagcdn.com/w40/de.png" alt="Made in Germany Flag">
-          <span>MADE IN GERMANY</span>
+          <img src="./images/Screenshot-2025-04-19-at-11.37.30 PM-1024x165.webp" alt="Made in Germany Flag" class="img-fluid">
         </div>
       </div>
       <div class="col-md-6 footer-right">

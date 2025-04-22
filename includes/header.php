@@ -73,7 +73,7 @@
                 <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                   <ul class="navbar-nav">
                     <li class="nav-item">
-                      <a class="nav-link" aria-current="page" href="/">ÜBER UNS
+                      <a class="nav-link" aria-current="page" href="/ÜBERUNS.php">ÜBER UNS
                       </a>
                     </li>
                     <li class="nav-item">
