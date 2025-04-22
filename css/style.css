@@ -853,6 +853,9 @@ ul.navbar-nav .btn-light:hover {
 	.mobile-row-reverse-767 {
 		flex-direction: column-reverse;
 	}
+	.made-in-germany img{
+		width: 100%;
+	}
 }
 @media (min-width: 768px) {
 	.container-lg {
