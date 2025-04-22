@@ -313,10 +313,6 @@ ul.navbar-nav .btn-light:hover {
 	margin-bottom: 40px;
 }
 
-.help-item {
-	margin-bottom: 40px;
-}
-
 .help-icon {
 	font-size: var(--font-50);
 	margin-bottom: 15px;
@@ -798,5 +794,8 @@ ul.navbar-nav .btn-light:hover {
 	.custom-modal .logo-container img {
 		max-width: 200px;
 		height: auto;
+	}
+	.help-item {
+		margin-bottom: 40px;
 	}
 }

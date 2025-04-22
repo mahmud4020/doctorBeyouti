@@ -5,7 +5,7 @@
   <section class="hero-bg py-3">
     <div class="container-lg container-fluid">
       <div class="row align-items-center g-4 mobile-row-reverse">
-        <div class="col-md-6 col-sm-12">
+        <div class="col-md-6 col-12">
           <div class="hero-content-wrapper">
             <h1 class="main-title">For your beauty, we use AI to find the best doctors in the world</h1>
             <h2 class="sub-title">We accompany and advise you every step of the way!</h2>
@@ -26,7 +26,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-6 col-sm-12">
+        <div class="col-md-6 col-12">
           <div class="right-img">
             <img src="./images/842250461487814937.png" alt="" class="img-fluid">
           </div>
@@ -42,19 +42,19 @@
     <div class="features-section">
       <div class="container-lg container-fluid">
         <div class="row justify-content-center g-4 flex-wrap">
-          <div class="col-sm-12 col-md-6 col-lg-3 feature-item">
+          <div class="col-12 col-md-6 col-lg-3 feature-item">
             <div class="feature-icon"><i class="fa-solid fa-circle-check me-2"></i></div>
             LATEST AI TECHNOLOGIES
           </div>
-          <div class="col-sm-12 col-md-6 col-lg-3 feature-item">
+          <div class="col-12 col-md-6 col-lg-3 feature-item">
             <div class="feature-icon"><i class="fa-solid fa-circle-check me-2"></i></div>
             TRUSTED DOCTORS
           </div>
-          <div class="col-sm-12 col-md-6 col-lg-3 feature-item">
+          <div class="col-12 col-md-6 col-lg-3 feature-item">
             <div class="feature-icon"><i class="fa-solid fa-circle-check me-2"></i></div>
             24-HOUR SERVICE
           </div>
-          <div class="col-sm-12 col-md-6 col-lg-3 feature-item">
+          <div class="col-12 col-md-6 col-lg-3 feature-item">
             <div class="feature-icon"><i class="fa-solid fa-circle-check me-2"></i></div>
             PRICE GUARANTEE
           </div>
@@ -148,7 +148,7 @@
     <div class="procedure-section">
       <div class="container-lg container-fluid">
         <div class="row justify-content-center">
-          <div class="col-lg-8 col-sm-12">
+          <div class="col-lg-8 col-12">
             <div class="difference-section">
               <h2 class="difference-title">Der Doctor BeYouti Unterschied</h2>
               <h3 class="difference-sub-title">Die besten Ärzte in einer App</h3>
@@ -166,28 +166,28 @@
     <div class="help-section">
       <div class="container-lg container-fluid">
         <div class="row justify-content-center">
-          <div class="col-md-6 col-sm-12 help-item">
+          <div class="col-md-6 col-12 help-item">
             <div class="help-icon">
             <i class="fa-brands fa-searchengin"></i>
             </div>
             <h3 class="help-item-title">Kostenloses Angebot</h3>
             <p class="help-item-description">Unsere Beratung ist für Sie vollkommen kostenlos – ganz ohne versteckte Gebühren.</p>
           </div>
-          <div class="col-md-6 col-sm-12 help-item">
+          <div class="col-md-6 col-12 help-item">
             <div class="help-icon">
             <i class="fa-solid fa-trophy"></i>
             </div>
             <h3 class="help-item-title">Zertifizierte Ärzte</h3>
             <p class="help-item-description">Wir setzen hohe Qualitätsstandards und bi eten Ihnen objektive Informationen über Är zte, die von fachkundig geprüft wurden.</p>
           </div>
-          <div class="col-md-6 col-sm-12 help-item">
+          <div class="col-md-6 col-12 help-item">
             <div class="help-icon">
             <i class="fa-solid fa-stethoscope"></i>
             </div>
             <h3 class="help-item-title">Zufriedenheitsversprechen</h3>
             <p class="help-item-description">Wir sichern Ihnen eine erstklassige Betreuung sowie uneingeschränkte Unterstützung zu.</p>
           </div>
-          <div class="col-md-6 col-sm-12 help-item">
+          <div class="col-md-6 col-12 help-item">
             <div class="help-icon">
               <i class="fa-regular fa-calendar-check"></i>
             </div>
@@ -205,19 +205,19 @@
     <div class="contact-section">
       <div class="container-lg container-fluid">
         <div class="row align-items-center">
-          <div class="col-md-3 col-sm-12 patient-manager-info">
+          <div class="col-md-3 col-12 patient-manager-info">
             <img src="./images/Screenshot-2025-04-19-at-12.00.44 PM-852x1024.png" alt="Emilia" class="patient-manager-image">
             <h2 class="contact-designation">Your personal<br>patient manager</h2>
             <h3 class="person-name">Emilia</h3>
           </div>
-          <div class="col-md-9 col-sm-12 contact-details">
+          <div class="col-md-9 col-12 contact-details">
             <h2>Questions? Contact us - We're here for you</h2>
             <div class="d-flex gap-3 mobile-store-img">
-              <div class="col-lg-8 col-sm-12">
+              <div class="col-lg-8 col-12">
                 <p>IIn einem persönlichen Gespräch können wir Ihre speziellen Anliegen besprechen und Ihnen bei der Entscheidungsfindung zur Seite stehen. Lassen Sie uns gemeinsam den passenden Arzt für Sie finden.</p>
               </div>
 
-              <div class="btn-wrapper col-lg-4 col-sm-12">
+              <div class="btn-wrapper col-lg-4 col-12">
                 <a href="tel:+491234242455" class="contact-button">+49 1234242455</a>
                 <a href="mailto:CONTACT@BEYOUTI.DOCTOR" class="contact-button">CONTACT@BEYOUTI.DOCTOR</a>
                 <a href="#" class="contact-button">WHATSAPP</a>

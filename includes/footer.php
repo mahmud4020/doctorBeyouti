@@ -15,7 +15,7 @@
         </div>
       </div>
       <div class="col-md-6 footer-right">
-        <div class="d-flex gap-2 justify-content-center mb-3">
+        <div class="d-flex gap-md-2 gap-1 justify-content-center mb-3">
           <a href="#" class="footer-links">AGB</a>
           <a href="#" class="footer-links">Datenschutzerklärung</a>
           <a href="#" class="footer-links">Impressum</a>
