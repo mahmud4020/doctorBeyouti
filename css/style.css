@@ -8,6 +8,7 @@
 	--font-19: 19px;
 	--font-20: 20px;
 	--font-22: 22px;
+	--font-24: 24px;
 	--font-27: 27px;
 	--font-30: 30px;
 	--font-32: 32px;
@@ -35,7 +36,12 @@ body {
 	font-size: var(--font-16);
 }
 
-
+.text-block-24{
+	font-size: var(--font-24);
+}
+.text-block-16{
+	font-size: var(--font-16);
+}
 
 
 .contact-info {
@@ -600,15 +606,13 @@ ul.navbar-nav .btn-light:hover {
 	justify-content: flex-end;
 }
 
+.footer-links.active {
+	font-weight: bold;
+	text-decoration: underline;
+	color: #007bff; 
+  }
+  
 
-
-
-
-
-
-
-
- /* Custom CSS for the modal appearance */
  .custom-modal .modal-dialog {
 	max-width: 800px;
 }
@@ -622,14 +626,14 @@ ul.navbar-nav .btn-light:hover {
 }
 
 .custom-modal .left-side {
-	background-color: var(--primary-color); /* Dark blue background */
+	background-color: var(--primary-color);
 	color: white;
 	padding: 20px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	width: 50%; /* Adjust as needed */
+	width: 50%; 
 }
 
 .custom-modal .right-side {
@@ -640,7 +644,7 @@ ul.navbar-nav .btn-light:hover {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	width: 50%; /* Adjust as needed */
+	width: 50%;
 }
 
 .custom-modal .logo-container {
