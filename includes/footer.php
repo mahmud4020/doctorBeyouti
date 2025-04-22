@@ -15,9 +15,9 @@
       </div>
       <div class="col-md-6 footer-right">
         <div class="d-flex gap-md-2 gap-1 justify-content-center mb-3">
-          <a href="/AGB.php" class="footer-links <?php echo basename($_SERVER['PHP_SELF']) == 'AGB.php' ? 'active' : ''; ?>">AGB</a>
-          <a href="/Datenschutzerklärung.php" class="footer-links <?php echo basename($_SERVER['PHP_SELF']) == 'Datenschutzerklärung.php' ? 'active' : ''; ?>">Datenschutzerklärung</a>
-          <a href="/Impressum.php" class="footer-links <?php echo basename($_SERVER['PHP_SELF']) == 'Impressum.php' ? 'active' : ''; ?>">Impressum</a>       
+          <a href="/agb.php" class="footer-links <?php echo basename($_SERVER['PHP_SELF']) == 'AGB.php' ? 'active' : ''; ?>">AGB</a>
+          <a href="/datenschutzerklarung.php" class="footer-links <?php echo basename($_SERVER['PHP_SELF']) == 'datenschutzerklarung.php' ? 'active' : ''; ?>">Datenschutzerklärung</a>
+          <a href="/impressum.php" class="footer-links <?php echo basename($_SERVER['PHP_SELF']) == 'impressum.php' ? 'active' : ''; ?>">Impressum</a>       
         </div>
         <p class="copy-right-txt">© 2025 Doctor BeYouti. Alle Rechte vorbehalten.</p>
       </div>

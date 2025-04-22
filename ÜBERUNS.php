@@ -58,7 +58,7 @@
 <!-- team section -->
 <section class="section-gap">
   <div class="container-lg container-fluid">
-    <h2 class="section-title text-center">DAS DOCTOR BeYouti TEAM</h2>
+    <h2 class="section-title text-center mb-4">DAS DOCTOR BeYouti TEAM</h2>
     <div class="row mobile-row-reverse-767">
       <div class="col team-member">
         <div class="team-img">
@@ -98,7 +98,7 @@
     </div>
     <div class="row mt-4">
       <div class="col-12 section-btn text-center">
-        <button type="button" class="btn btn-light custom-button">Jetzt anfragen</button>
+        <button type="button" class="btn btn-light custom-button shadow-none fw-bold">Jetzt anfragen</button>
       </div>
       <div class="col col-12 mt-md-5 mt-4">
         <div class="mobile-store-img">

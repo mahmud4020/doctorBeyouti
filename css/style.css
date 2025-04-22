@@ -39,11 +39,15 @@ body {
 .text-block-24{
 	font-size: var(--font-24);
 }
+.text-block-20{
+	font-size: var(--font-20);
+}
 .text-block-16{
 	font-size: var(--font-16);
 }
-
-
+.text-block-32{
+	font-size: var(--font-32);
+}
 .contact-info {
 	display: flex;
 	align-items: center;
@@ -244,7 +248,6 @@ ul.navbar-nav .btn-light:hover {
 .feature-item {
 	font-size: var(--font-20);
 	font-weight: 600;
-	margin-bottom: 15px;
 }
 
 .feature-icon {
@@ -607,9 +610,7 @@ ul.navbar-nav .btn-light:hover {
 }
 
 .footer-links.active {
-	font-weight: bold;
-	text-decoration: underline;
-	color: #007bff; 
+	color: #C8D5DC; 
   }
   
 
