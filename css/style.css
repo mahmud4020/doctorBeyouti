@@ -39,6 +39,9 @@ body {
 .text-block-24{
 	font-size: var(--font-24);
 }
+.text-block-19{
+	font-size: var(--font-19);
+}
 .text-block-20{
 	font-size: var(--font-20);
 }
