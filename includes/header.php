@@ -80,7 +80,7 @@
                       <a class="nav-link" href="/kontakt.php">KONTAKT</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="/deutsch.php">DEUTSCH</a>
+                      <a class="nav-link" href="#">ENGLISH</a>
                     </li>
                     <li class="nav-item">
                       <button class="btn btn-light d-lg-block d-none" data-bs-toggle="modal" data-bs-target="#customModal">DOWNLOAD</button>
