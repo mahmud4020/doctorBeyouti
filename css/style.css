@@ -736,6 +736,22 @@ ul.navbar-nav .btn-light:hover {
 	}
 }
 @media (max-width: 991px) {
+	:root {
+		--font-13: 12px;
+		--font-14: 13px;
+		--font-16: 14px;
+		--font-19: 16px;
+		--font-20: 17px;
+		--font-22: 18px;
+		--font-25: 20px;
+		--font-27: 22px;
+		--font-30: 24px;
+		--font-32: 26px;
+		--font-36: 30px;
+		--font-40: 34px;
+		--font-44: 38px;
+		--font-50: 42px;
+	}
 
 	.feature-item {
 		text-align: center;
@@ -807,22 +823,7 @@ ul.navbar-nav .btn-light:hover {
 }
 
 @media (max-width: 767px) {
-	:root {
-		--font-13: 12px;
-		--font-14: 13px;
-		--font-16: 14px;
-		--font-19: 16px;
-		--font-20: 17px;
-		--font-22: 18px;
-		--font-25: 20px;
-		--font-27: 22px;
-		--font-30: 24px;
-		--font-32: 26px;
-		--font-36: 30px;
-		--font-40: 34px;
-		--font-44: 38px;
-		--font-50: 42px;
-	}
+	
 
 	.footer-social-icons a {
 		width: 32px;

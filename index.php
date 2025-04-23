@@ -68,7 +68,7 @@
   <section>
     <div id="carouselExampleDark" class="carousel carousel-dark slide custom-carousel-style" data-bs-ride="carousel">
       <div class="carousel-inner">
-        <div class="carousel-item active" data-bs-interval="3000">
+        <div class="carousel-item active" data-bs-interval="300000">
           <img src="./images/WhatsApp Image 2025-04-22 at 14.15.35_e645b5dd.jpg" class="d-block w-100" alt="...">
           <div class="carousel-caption container-lg container-fluid">
             <div class="slider-content">
@@ -91,7 +91,7 @@
           </div>
         </div>
 
-        <div class="carousel-item" data-bs-interval="3000">
+        <div class="carousel-item" data-bs-interval="300000">
           <img src="./images/WhatsApp Image 2025-04-22 at 14.15.35_e645b5dd.jpg" class="d-block w-100" alt="...">
           <div class="carousel-caption container-lg container-fluid">
             <div class="slider-content">
@@ -114,7 +114,7 @@
           </div>
         </div>
 
-        <div class="carousel-item" data-bs-interval="3000">
+        <div class="carousel-item" data-bs-interval="300000">
           <img src="./images/WhatsApp Image 2025-04-22 at 14.15.35_57814a98.jpg" class="d-block w-100" alt="...">
           <div class="carousel-caption container-lg container-fluid">
           <div class="slider-content">
@@ -137,7 +137,7 @@
           </div>
         </div>
 
-        <div class="carousel-item" data-bs-interval="3000">
+        <div class="carousel-item" data-bs-interval="300000">
           <img src="./images/WhatsApp Image 2025-04-22 at 14.15.36_d54b17da.jpg" class="d-block w-100" alt="...">
           <div class="carousel-caption container-lg container-fluid">
           <div class="slider-content">
@@ -159,7 +159,7 @@
           </div>
         </div>
 
-        <div class="carousel-item" data-bs-interval="3000">
+        <div class="carousel-item" data-bs-interval="300000">
           <img src="./images/WhatsApp Image 2025-04-22 at 14.15.36_69040d66.jpg" class="d-block w-100" alt="...">
           <div class="carousel-caption container-lg container-fluid">
           <div class="slider-content">
@@ -181,7 +181,7 @@
           </div>
         </div>
 
-        <div class="carousel-item" data-bs-interval="3000">
+        <div class="carousel-item" data-bs-interval="300000">
           <img src="./images/WhatsApp Image 2025-04-22 at 14.15.35_a3293c43.jpg" class="d-block w-100" alt="...">
           <div class="carousel-caption container-lg container-fluid">
           <div class="slider-content">
@@ -283,7 +283,7 @@
           </div>
           <div class="col-md-9 col-12 contact-details">
             <h2>Fragen? Kontaktieren Sie uns - Wir sind für Sie da</h2>
-            <div class="d-flex gap-3 mobile-store-img">
+            <div class="row">
               <div class="col-lg-8 col-12">
                 <p>In einem persönlichen Gespräch können wir Ihre speziellen Anliegen besprechen und Ihnen bei der Entscheidungsfindung zur Seite stehen. Lassen Sie uns gemeinsam den passenden Arzt für Sie finden.
                 </p>
