@@ -65,7 +65,7 @@
                   </svg>
                 </button>
 
-                <button class="btn btn-light ms-4 d-lg-none d-inline" data-bs-toggle="modal" data-bs-target="#customModal">DOWNLOAD</button>
+                <button class="btn btn-sm btn-light ms-4 d-lg-none d-inline" data-bs-toggle="modal" data-bs-target="#customModal">DOWNLOAD</button>
 
               </div>
 

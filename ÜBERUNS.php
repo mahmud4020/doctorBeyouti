@@ -4,7 +4,7 @@
 <section class="section-gap">
   <div class="about-section">
     <div class="container-lg container-fluid">
-      <div class="row align-items-center">
+      <div class="row align-items-center g-4">
         <div class="col-md-6 col-12 text-center">
           <img src="./images/WhatsApp Image 2025-04-22 at 14.15.35_8624798a.jpg" alt="Emilia" class="about-us-image img-fluid col-md-9 mx-auto">
         </div>

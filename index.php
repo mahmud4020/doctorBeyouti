@@ -69,8 +69,8 @@
     <div id="carouselExampleDark" class="carousel carousel-dark slide custom-carousel-style" data-bs-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active" data-bs-interval="300000">
-          <img src="./images/WhatsApp Image 2025-04-22 at 14.15.35_e645b5dd.jpg" class="d-block w-100" alt="...">
-          <div class="carousel-caption container-lg container-fluid">
+          <img src="./images/WhatsApp Image 2025-04-23 at 21.54.31_64ba7b82.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption">
             <div class="slider-content">
               <h1>Mommy Maveover - Wieder zu Ihrem Wohlfühlkörper</h1>
               <p class="lead">Individuelle Kombination von ästhetischen Eingriffen speziell für Mütter</p>
@@ -93,7 +93,7 @@
 
         <div class="carousel-item" data-bs-interval="300000">
           <img src="./images/WhatsApp Image 2025-04-22 at 14.15.35_e645b5dd.jpg" class="d-block w-100" alt="...">
-          <div class="carousel-caption container-lg container-fluid">
+          <div class="carousel-caption">
             <div class="slider-content">
               <h1>Haartransplantation - Ihr Weg zu vollem Haar</h1>
               <p class="lead">Haartransplantation - Ihr Weg zu vollem Haar</p>
@@ -116,7 +116,7 @@
 
         <div class="carousel-item" data-bs-interval="300000">
           <img src="./images/WhatsApp Image 2025-04-22 at 14.15.35_57814a98.jpg" class="d-block w-100" alt="...">
-          <div class="carousel-caption container-lg container-fluid">
+          <div class="carousel-caption">
           <div class="slider-content">
               <h1>Nasenkorrektur - Ihr Weg zu einer harmonischen Nase</h1>
               <p class="lead">Vertrauen Sie auf unsere Expertise für ästhetische Ergebnisse</p>
@@ -139,7 +139,7 @@
 
         <div class="carousel-item" data-bs-interval="300000">
           <img src="./images/WhatsApp Image 2025-04-22 at 14.15.36_d54b17da.jpg" class="d-block w-100" alt="...">
-          <div class="carousel-caption container-lg container-fluid">
+          <div class="carousel-caption">
           <div class="slider-content">
               <h1>Zahnimplantat - Ihr strahlendes Lächeln</h1>
               <p class="lead">Für herausragende ästhetische Ergebnisse</p>
@@ -161,7 +161,7 @@
 
         <div class="carousel-item" data-bs-interval="300000">
           <img src="./images/WhatsApp Image 2025-04-22 at 14.15.36_69040d66.jpg" class="d-block w-100" alt="...">
-          <div class="carousel-caption container-lg container-fluid">
+          <div class="carousel-caption">
           <div class="slider-content">
               <h1>Zahnimplantat - Ihr strahlendes Lächeln</h1>
               <p class="lead">Effektive Körperperformance für mehr Selbstbewusstsein</p>
@@ -183,7 +183,7 @@
 
         <div class="carousel-item" data-bs-interval="300000">
           <img src="./images/WhatsApp Image 2025-04-22 at 14.15.35_a3293c43.jpg" class="d-block w-100" alt="...">
-          <div class="carousel-caption container-lg container-fluid">
+          <div class="carousel-caption">
           <div class="slider-content">
               <h1>Brustvergrößerung</h1>
               <p class="lead">Für ein weibliches Körpergefühl</p>
@@ -276,12 +276,12 @@
     <div class="contact-section">
       <div class="container-lg container-fluid">
         <div class="row align-items-center">
-          <div class="col-md-3 col-12 patient-manager-info">
+          <div class="col-lg-3 col-md-4 col-12 patient-manager-info">
             <img src="./images/Screenshot-2025-04-19-at-12.00.44 PM-852x1024.png" alt="Emilia" class="patient-manager-image">
             <h2 class="contact-designation">Ihr persönlicher <br> Patientenmanager</h2>
             <h3 class="person-name">Emilia</h3>
           </div>
-          <div class="col-md-9 col-12 contact-details">
+          <div class="col-lg-9 col-md-8 col-12 contact-details">
             <h2>Fragen? Kontaktieren Sie uns - Wir sind für Sie da</h2>
             <div class="row">
               <div class="col-lg-8 col-12">
