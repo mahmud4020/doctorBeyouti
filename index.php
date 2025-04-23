@@ -68,7 +68,7 @@
   <section>
     <div id="carouselExampleDark" class="carousel carousel-dark slide custom-carousel-style" data-bs-ride="carousel">
       <div class="carousel-inner">
-        <div class="carousel-item active" data-bs-interval="300000">
+        <div class="carousel-item active" data-bs-interval="3000">
           <img src="./images/WhatsApp Image 2025-04-23 at 21.54.31_64ba7b82.jpg" class="d-block w-100" alt="...">
           <div class="carousel-caption">
             <div class="slider-content">
@@ -91,7 +91,7 @@
           </div>
         </div>
 
-        <div class="carousel-item" data-bs-interval="300000">
+        <div class="carousel-item" data-bs-interval="3000">
           <img src="./images/WhatsApp Image 2025-04-22 at 14.15.35_e645b5dd.jpg" class="d-block w-100" alt="...">
           <div class="carousel-caption">
             <div class="slider-content">
@@ -114,7 +114,7 @@
           </div>
         </div>
 
-        <div class="carousel-item" data-bs-interval="300000">
+        <div class="carousel-item" data-bs-interval="3000">
           <img src="./images/WhatsApp Image 2025-04-22 at 14.15.35_57814a98.jpg" class="d-block w-100" alt="...">
           <div class="carousel-caption">
           <div class="slider-content">
@@ -137,7 +137,7 @@
           </div>
         </div>
 
-        <div class="carousel-item" data-bs-interval="300000">
+        <div class="carousel-item" data-bs-interval="3000">
           <img src="./images/WhatsApp Image 2025-04-22 at 14.15.36_d54b17da.jpg" class="d-block w-100" alt="...">
           <div class="carousel-caption">
           <div class="slider-content">
@@ -159,7 +159,7 @@
           </div>
         </div>
 
-        <div class="carousel-item" data-bs-interval="300000">
+        <div class="carousel-item" data-bs-interval="3000">
           <img src="./images/WhatsApp Image 2025-04-22 at 14.15.36_69040d66.jpg" class="d-block w-100" alt="...">
           <div class="carousel-caption">
           <div class="slider-content">
@@ -181,7 +181,7 @@
           </div>
         </div>
 
-        <div class="carousel-item" data-bs-interval="300000">
+        <div class="carousel-item" data-bs-interval="3000">
           <img src="./images/WhatsApp Image 2025-04-22 at 14.15.35_a3293c43.jpg" class="d-block w-100" alt="...">
           <div class="carousel-caption">
           <div class="slider-content">
